@@ -4,6 +4,15 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  --color-primary-500: var(--primary-500);
+  --color-primary-50: var(--primary-50);
+  --color-noir-900: var(--noir-900);
+  --color-noir-400: var(--noir-400);
+  --color-noir-50: var(--noir-50);
+  --color-danger-500: var(--danger-500);
+  --color-danger-50: var(--danger-50);
+  --color-success-500: var(--success-500);
+  --color-success-50: var(--success-50);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -44,6 +53,15 @@
 }
 
 :root {
+  --primary-500: #0a65cc;
+  --primary-50: #e7f0fa;
+  --noir-900: #18191c;
+  --noir-400: #9199a3;
+  --noir-50: #f1f2f4;
+  --danger-500: #e05151;
+  --danger-50: #fceeee;
+  --success-500: #0ba02c;
+  --success-50: #e7f6ea;
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.13 0.028 261.692);
