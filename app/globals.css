@@ -5,9 +5,11 @@
 
 @theme inline {
   --color-primary-500: var(--primary-500);
+  --color-primary-100: var(--primary-100);
   --color-primary-50: var(--primary-50);
   --color-noir-900: var(--noir-900);
   --color-noir-400: var(--noir-400);
+  --color-noir-600: var(--noir-600);
   --color-noir-50: var(--noir-50);
   --color-danger-500: var(--danger-500);
   --color-danger-50: var(--danger-50);
@@ -54,9 +56,11 @@
 
 :root {
   --primary-500: #0a65cc;
+  --primary-100: #cee0f5;
   --primary-50: #e7f0fa;
   --noir-900: #18191c;
   --noir-400: #9199a3;
+  --noir-600: #5e6670;
   --noir-50: #f1f2f4;
   --danger-500: #e05151;
   --danger-50: #fceeee;
@@ -101,6 +105,7 @@
     @apply border-border outline-ring/50;
   }
   body {
+    font-family: var(--font-inter), sans-serif;
     @apply bg-background text-foreground;
   }
 }
